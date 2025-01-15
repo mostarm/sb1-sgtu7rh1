@@ -36,10 +36,9 @@ const Navigation = () => {
             <NavLink
               to="/sponsors"
               className={({ isActive }) =>
-                `flex items-center space-x-2 text-gray-600 hover:text-gray-900 ${
-                  isActive ? 'text-blue-600' : ''
-                }`
-              }
+              `flex items-center space-x-2 text-gray-600 hover:text-gray-900 ${
+                isActive ? 'text-blue-600' : ''
+              }`}
             >
               <Building2 className="w-5 h-5" />
               <span>Sponsors</span>

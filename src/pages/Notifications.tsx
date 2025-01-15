@@ -20,7 +20,7 @@ const Notifications = () => {
   return (
     <div className="space-y-6">
       <div className="flex justify-between items-center">
-        <h2 className="text-3xl font-bold text-gray-900">Notifications</h2>
+        <h2 className="text-3xl font-bold text-blue-600">Notifications</h2>
         <button
           onClick={toggleNotifications}
           className={`flex items-center space-x-2 px-4 py-2 rounded-lg ${

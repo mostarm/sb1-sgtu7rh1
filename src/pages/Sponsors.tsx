@@ -69,11 +69,11 @@ const categoryColors = {
 const Sponsors = () => {
   return (
     <div className="space-y-12">
-      <h2 className="text-3xl font-bold text-gray-100">Sponsors</h2>
+      <h2 className="text-3xl font-bold text-blue-600">Sponsors</h2>
       
       {['platinum', 'gold', 'silver', 'bronze'].map((category) => (
         <div key={category} className="space-y-4">
-          <h3 className="text-2xl font-semibold text-gray-200 capitalize">
+          <h3 className="text-2xl font-semibold text-blue-600 capitalize">
             {category} Sponsors
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

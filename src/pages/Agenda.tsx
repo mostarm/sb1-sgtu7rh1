@@ -138,7 +138,7 @@ const Agenda = () => {
   return (
     <div className="space-y-6">
       <div className="flex justify-between items-center">
-        <h2 className="text-3xl font-bold text-gray-100">Conference Agenda</h2>
+        <h2 className="text-3xl font-bold text-blue-600">Conference Agenda</h2>
         <button
           onClick={() => setShowFavorites(!showFavorites)}
           className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
